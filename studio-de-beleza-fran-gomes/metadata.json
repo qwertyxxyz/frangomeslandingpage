@@ -1,0 +1,6 @@
+{
+  "name": "Studio de Beleza Fran Gomes",
+  "description": "Site oficial do Studio de Beleza Fran Gomes em Contagem, MG. Experiência de beleza com cuidados capilares, botox capilar, design de sobrancelhas e agendamento via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
