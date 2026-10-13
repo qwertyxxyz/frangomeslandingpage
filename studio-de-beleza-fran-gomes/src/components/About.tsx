@@ -2,6 +2,7 @@ import React from 'react';
 import { Sparkles, MessageCircle, Heart } from 'lucide-react';
 import { BUSINESS, getWhatsAppUrl } from '../config/business';
 import { ImageWithFallback } from './ImageWithFallback';
+import { IMAGES } from '../assets/images';
 
 export const About: React.FC = () => {
   return (
@@ -25,7 +26,7 @@ export const About: React.FC = () => {
 
               <div className="relative rounded-[1.75rem] overflow-hidden shadow-[0_16px_40px_-16px_rgba(56,41,35,0.2)] bg-[#EFE9DF] border border-[#E8D8C5] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:-translate-y-2 group-hover:shadow-[0_24px_50px_-16px_rgba(56,41,35,0.3)]">
                 <ImageWithFallback
-                  src="/public/foto1.jpg"
+                  src={IMAGES.aboutFran}
                   alt="Profissional do Studio de Beleza Fran Gomes em atendimento acolhedor"
                   className="w-full h-[440px] sm:h-[500px] object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-106"
                 />

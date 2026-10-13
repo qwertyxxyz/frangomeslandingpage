@@ -3,6 +3,7 @@ import { Star, ArrowRight, Calendar, Sparkles } from 'lucide-react';
 import { motion } from 'motion/react';
 import { BUSINESS, getWhatsAppUrl } from '../config/business';
 import { ImageWithFallback } from './ImageWithFallback';
+import { IMAGES } from '../assets/images';
 
 export const Hero: React.FC = () => {
   // 21st.dev / cult.ui word-by-word blur-in reveal
@@ -175,7 +176,7 @@ export const Hero: React.FC = () => {
               {/* Main Photo Card with fluid hover lift & scale */}
               <div className="relative overflow-hidden rounded-[1.75rem] shadow-[0_20px_50px_-20px_rgba(56,41,35,0.25)] border border-[#E8D8C5] bg-[#EFE9DF] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:-translate-y-2 group-hover:shadow-[0_25px_60px_-15px_rgba(56,41,35,0.35)]">
                 <ImageWithFallback
-                  src="/src/assets/images/hero_beauty_portrait_1791921258674.jpg"
+                  src={IMAGES.hero}
                   alt="Beleza feminina com cabelos brilhantes e saudáveis no Studio Fran Gomes"
                   className="w-full h-[430px] sm:h-[480px] lg:h-[520px] object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-106"
                 />
